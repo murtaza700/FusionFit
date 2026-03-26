@@ -3,7 +3,7 @@
 A modern, fully responsive gym landing page built with **React (Vite)**, **Tailwind CSS v4**, and **Framer Motion**.  
 Designed to deliver a premium fitness experience with smooth animations, dark aesthetic, and production-ready code.
 
-![Hero Section Preview](/public/hero_image.avif)
+![Hero Section Preview](/public/FusionFit.PNG)
 
 
 
