@@ -3,10 +3,9 @@
 A modern, fully responsive gym landing page built with **React (Vite)**, **Tailwind CSS v4**, and **Framer Motion**.  
 Designed to deliver a premium fitness experience with smooth animations, dark aesthetic, and production-ready code.
 
-![Hero Section Preview](https://via.placeholder.com/1200x600?text=FusionFit+Demo)  
-*Replace with actual screenshot*
+![Hero Section Preview](/public/hero_image.avif)
 
----
+
 
 ## ✨ Features
 
@@ -36,7 +35,6 @@ Designed to deliver a premium fitness experience with smooth animations, dark ae
 | **Tailwind CSS v4**| Utility-first CSS (no config file)       |
 | **Framer Motion**  | Animation library                        |
 | **Lucide React**   | Modern icon set                          |
-| **Axios**          | HTTP client (ready for future API calls) |
 | **Google Fonts**   | Poppins + Inter                          |
 
 ---
@@ -79,8 +77,8 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/fusionfit-gym.git
-   cd fusionfit-gym```
+   git clone https://github.com/murtaza700/FusionFit.git
+   cd fusionfit```
 
 2. **Install dependencies**
    ```bash
