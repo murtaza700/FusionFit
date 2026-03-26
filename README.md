@@ -78,7 +78,8 @@ src/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/murtaza700/FusionFit.git
-   cd fusionfit```
+   cd fusionfit
+   ```
 
 2. **Install dependencies**
    ```bash
@@ -107,15 +108,15 @@ src/
 # 🎨 Design Highlights
 - ### Color Palette
 
-  - Primary: Black (#000000) and dark grays
+  - Primary: Black (``#000000``) and dark grays
 
-  - Accent: Neon green (#a3e635) and electric blue gradients
+  - Accent: Neon green (``#a3e635``) and electric blue gradients
 
 - ### Typography
 
-  - Headings: Poppins (bold, modern)
+  - Headings: Poppins (``bold``, ``modern``)
 
-  - Body: Inter (clean, readable)
+  - Body: Inter (``clean``, ``readable``)
 
 - ### UI Patterns
 
@@ -126,13 +127,13 @@ src/
   - Gradient text for brand name
 
 # 🔮 Future Improvements
-- Integrate a backend (Node.js/Express) for contact form submissions
+- Integrate a backend (``Node.js/Express``) for contact form submissions
 
 - Add user authentication and member dashboard
 
 - Implement a class booking system
 
-- Connect to a CMS (Sanity, Contentful) for dynamic content
+- Connect to a CMS (``Sanity, Contentful``) for dynamic content
 
 - Add a blog section with fitness articles
 
