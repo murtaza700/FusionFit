@@ -11,8 +11,8 @@ const PricingCard = ({ plan, index }) => {
             transition={{ delay: index * 0.1 }}
             whileHover={{ y: -12 }}
             className={`relative rounded-2xl overflow-hidden transition-all duration-300 ${plan.recommended
-                    ? 'bg-gradient-to-b from-gray-800 to-gray-900 border-2 border-lime-400 shadow-2xl shadow-lime-400/20'
-                    : 'bg-gray-900 border border-gray-800'
+                ? 'bg-linear-to-r from-gray-800 to-gray-900 border-2 border-lime-400 shadow-2xl shadow-lime-400/20'
+                : 'bg-gray-900 border border-gray-800'
                 }`}
         >
             {plan.recommended && (
@@ -29,7 +29,7 @@ const PricingCard = ({ plan, index }) => {
                 <ul className="space-y-3 text-left mb-8">
                     {plan.features.map((feature, i) => (
                         <li key={i} className="flex items-center gap-3 text-gray-300">
-                            <Check size={18} className="text-lime-400 flex-shrink-0" />
+                            <Check size={18} className="text-lime-400 shrink-0" />
                             <span className="text-sm">{feature}</span>
                         </li>
                     ))}
@@ -37,9 +37,9 @@ const PricingCard = ({ plan, index }) => {
                 <motion.button
                     whileHover={{ scale: 1.03 }}
                     whileTap={{ scale: 0.98 }}
-                    className={`w-full py-3 rounded-full font-bold transition-all ${plan.recommended
-                            ? 'bg-lime-400 text-black hover:bg-lime-300 shadow-lg'
-                            : 'bg-gray-800 text-white hover:bg-lime-400 hover:text-black'
+                    className={`w-full py-3 cursor-pointer rounded-full font-bold transition-all ${plan.recommended
+                        ? 'bg-lime-400 text-black hover:bg-lime-300 shadow-lg'
+                        : 'bg-gray-800 text-white hover:bg-lime-400 hover:text-black'
                         }`}
                 >
                     Get Started

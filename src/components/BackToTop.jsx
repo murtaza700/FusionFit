@@ -34,7 +34,7 @@ const BackToTop = () => {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                     onClick={scrollToTop}
-                    className="fixed bottom-8 right-8 z-50 bg-lime-400 text-black p-3 rounded-full shadow-lg shadow-lime-400/30"
+                    className="fixed cursor-pointer bottom-8 right-8 z-50 bg-lime-400 text-black p-3 rounded-full shadow-lg shadow-lime-400/30"
                     aria-label="Back to top"
                 >
                     <ChevronUp size={24} />

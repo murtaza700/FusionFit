@@ -25,7 +25,7 @@ const trainers = [
 
 const Trainers = () => {
     return (
-        <section id="trainers" className="py-24 bg-gradient-to-b from-black to-gray-950">
+        <section id="trainers" className="py-24 bg-linear-to-b from-black to-gray-950">
             <div className="max-w-7xl mx-auto px-6 lg:px-8">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}

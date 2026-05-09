@@ -41,7 +41,7 @@ const Programs = () => {
 
     return (
         <section id="programs" className="py-24 bg-black relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-b from-gray-950 via-black to-black"></div>
+            <div className="absolute inset-0 bg-linear-to-b from-gray-950 via-black to-black"></div>
             <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
@@ -51,7 +51,7 @@ const Programs = () => {
                     className="text-center mb-16"
                 >
                     <span className="text-lime-400 font-semibold tracking-wider text-sm uppercase">WHAT WE OFFER</span>
-                    <h2 className="text-4xl md:text-5xl font-bold mt-2 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+                    <h2 className="text-4xl md:text-5xl font-bold mt-2 bg-linear-to-r from-white to-gray-400 bg-clip-text text-transparent">
                         Elite Training Programs
                     </h2>
                     <div className="w-20 h-1 bg-lime-400 mx-auto mt-4 rounded-full"></div>

@@ -87,7 +87,7 @@ const Contact = () => {
                                 whileTap={{ scale: 0.98 }}
                                 type="submit"
                                 disabled={loading}
-                                className="w-full bg-lime-400 text-black font-bold py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-lime-300 transition-all disabled:opacity-70"
+                                className="w-full cursor-pointer bg-lime-400 text-black font-bold py-3 rounded-lg flex items-center justify-center gap-2 hover:bg-lime-300 transition-all disabled:opacity-70"
                             >
                                 {loading ? 'Sending...' : 'Send Message'} <Send size={18} />
                             </motion.button>
